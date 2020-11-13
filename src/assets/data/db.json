@@ -1,0 +1,54 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "nome": "Administrativo",
+      "icone": "nav-icon fas fa-tachometer-alt",
+      "href": "",
+      "active": true,
+      "submenu": [
+        {
+          "id": 1,
+          "idMenu": 1,
+          "nome": "Especialidades",
+          "icone": "far fa-circle nav-icon",
+          "href": "especialidades",
+          "active": true
+        },
+        {
+          "id": 2,
+          "idMenu": 1,
+          "nome": "Nutricionista",
+          "icone": "far fa-circle nav-icon",
+          "href": "",
+          "active": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Paciente",
+      "icone": "nav-icon fas fa-copy",
+      "href": "",
+      "active": true,
+      "submenu": [
+        {
+          "id": 3,
+          "idMenu": 2,
+          "nome": "Agenda",
+          "icone": "far fa-circle nav-icon",
+          "href": "",
+          "active": true
+        },
+        {
+          "id": 4,
+          "idMenu": 2,
+          "nome": "Consulta",
+          "icone": "far fa-circle nav-icon",
+          "href": "",
+          "active": false
+        }
+      ]
+    }
+  ]
+}
