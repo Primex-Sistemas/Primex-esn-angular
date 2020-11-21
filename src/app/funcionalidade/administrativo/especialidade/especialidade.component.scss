@@ -1,6 +1,42 @@
 .btnAction{
-  margin: 5px 30px 5px 30px;
+  margin: 15px 25px 15px 25px;
   outline: none;
   border: none;
 
+}
+
+.btnNoneBorde {
+  outline: none;
+}
+
+mat-form-field.mat-form-field {
+  font-size: 10px;
+}
+
+table {
+  width: 100%;
+}
+.mat-row:hover {
+  background-color: #e8e8e8;
+}
+
+
+.control-sidebar {
+          height: calc(100vh - 135px);
+          overflow-y: scroll;
+          overflow-x: hidden;
+}
+
+.control-sidebar{
+ // width:0%;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+  position:relative;
+  bottom:0;
+  height: 15%;
+  width:100%;
 }

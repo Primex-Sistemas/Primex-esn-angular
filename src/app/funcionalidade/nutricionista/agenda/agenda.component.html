@@ -1,0 +1,10 @@
+<!--
+<full-calendar [options]="calendarOptions"></full-calendar>
+-->
+<full-calendar [options]="calendarOptions"></full-calendar>
+<ul>
+  <li *ngFor="let x of calendarOptions.events">
+       oii {{x|json}}
+  </li>
+</ul>
+<button (click)="teste()" >Aqui</button>
